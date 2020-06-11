@@ -1,0 +1,2 @@
+https://www.metaweather.com/api/location/search/?query=milwaukee
+https://www.metaweather.com/api/location/2451822/
