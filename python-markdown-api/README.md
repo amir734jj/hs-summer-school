@@ -2,7 +2,7 @@
 
 ```
 pip3 install -r requirements.txt 
-python3 server.pu
+python3 server.py
 ```
 
 ### Notes
