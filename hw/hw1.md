@@ -1,0 +1,20 @@
+1) create GitHub account and get familiar with GitHub
+2) review /playground/factorial.py code
+    3) write fibonacci code in python in a recursive fashion
+4) create a public repository called `hs-summer-cs-school`
+    5) push your fibonacci implementation into this repository
+    6) send me an email containing your repository link
+7) should be able to run /python-markdown-api/server.py
+    8) should be able to use Postman to test the api
+        header: Content-Type: application/json
+        body:
+            {
+                "markdown": "#header is here\n##secondary header\nparagraph"
+            }
+    9) take an screenshot showing that you were able to test back-end using Postman
+8) investigate react, axios.js and npm
+
+Deliverables by 5pm on Monday 6/15:
+    - email containing:
+        #6 url for repository
+        #9 screenshot of Postman

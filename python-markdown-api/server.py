@@ -7,7 +7,12 @@ import markdown2
 app = Flask(__name__, template_folder="views")
 CORS(app)
 
-@app.route("/", methods=['POST'])
+@app.route("/")
+def index():
+   return "Hello world!"
+
+
+@app.route("/md", methods=['POST'])
 def compile():
     print(request.data)
     data = request.get_json()
