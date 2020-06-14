@@ -30,8 +30,8 @@
     - creates city of Franklin (with zip code, latitude and longitude)
     - creates city of Shorewood (with zip code, latitude and longitude)
     - adds city of Franklin and Shorewood to state of Wisconsin
-    - prints state of wisconsin
-    - prints distance between Franklin and Wisconsin by calling distance method
+    - prints state of Wisconsin
+    - prints distance between Franklin and Shorewood by calling distance method of either of cities
 
 extra credit:
     - download CSV or JSON dataset of cities from here and try to get familiar with it
