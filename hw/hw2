@@ -22,8 +22,8 @@
         - name (defaults to empty string)
         - cities which is an array of cities
     - State overrides default toString method (i.e. __str__) and it should return string like this:
-        <name>
-            1) <name> (<zipcode>): <latitude>, <longitude>
+        <state-name>
+            1) <city-name> (<zipcode>): <latitude>, <longitude>
 
 3) write main method that
     - creates state of Wisconsin
