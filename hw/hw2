@@ -1,0 +1,42 @@
+# HW assigned on 6/15
+
+1) create python class City that extends class Place
+    - Place has two properties
+        - latitude (default value zero)
+        - longitude (default value zero)
+    - Place has a method called `distance(self, other_place)`
+        * this method calculates the distance between two places
+          using latitude and longitude
+        * should use Haversine formula to calculate distance
+          https://en.wikipedia.org/wiki/Haversine_formula
+    - Place overrides default toString method (i.e. __str__) and it should return string like this:
+        <latitude>, <longitude>
+    - City extends Place and has a two additional properties
+        - name (defaults to empty string)
+        - zip code (defaults to your home zipcode)
+    - City overrides default toString method (i.e. __str__) and it should return string like this:
+        <name> (<zipcode>): <latitude>, <longitude>
+
+2) create python class State
+    - State has two properties
+        - name (defaults to empty string)
+        - cities which is an array of cities
+    - State overrides default toString method (i.e. __str__) and it should return string like this:
+        <name>
+            1) <name> (<zipcode>): <latitude>, <longitude>
+
+3) write main method that
+    - creates state of Wisconsin
+    - creates city of Franklin (with zip code, latitude and longitude)
+    - creates city of Shorewood (with zip code, latitude and longitude)
+    - adds city of Franklin and Shorewood to state of Wisconsin
+    - prints state of wisconsin
+    - prints distance between Franklin and Wisconsin by calling distance method
+
+extra credit:
+    - download CSV or JSON dataset of cities from here and try to get familiar with it
+        >> https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/export/
+
+## Deliverables by 5pm on Monday 6/18:
+    - #6 folder in your repository containing the code
+    - #9 email containing screenshot of code running successfully
