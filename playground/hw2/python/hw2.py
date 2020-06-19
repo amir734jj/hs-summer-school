@@ -5,6 +5,7 @@ class Place:
         self.longitude = longitude
 
     def distance(self, other_place):
+        # TODO
         return self.latitude - other_place.latitude
 
     def __str__(self):
