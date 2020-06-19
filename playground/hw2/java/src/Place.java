@@ -9,6 +9,7 @@ public class Place {
     }
 
     public double distance(Place other) {
+        // TODO
         return this.latitude - other.latitude;
     }
 
