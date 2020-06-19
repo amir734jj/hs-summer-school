@@ -1,0 +1,14 @@
+# HW assigned on 6/18
+
+1) Complete HW2 + extra credit question
+  - prtial solution is posted on /playground/hw2
+2) Run /playground/hw2/java using IntelliJ free edition (https://www.jetbrains.com/idea-edu/) or eclipse
+  - note that you need JDK (not JRE) to be able to run the code
+  - email a screenshot showing that you were able to run the code
+
+extra credit:
+  - Complete distance method in Java as well
+
+## Deliverables by 5pm on Monday 6/22:
+    - #1 completed distance method in Python as described in HW#2
+    - #2 screenshot showing that you were able to run Java code in /playground/hw2/java
