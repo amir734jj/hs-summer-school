@@ -1,0 +1,17 @@
+# HW assigned on 6/22
+
+1) Review git commands
+  - add
+  - log
+  - commit
+  - push
+2) organize your repository according to hw number
+  - hw1, hw2 and etc folders and python/java subdirectory
+3) implement binary tree deletion in Java
+
+extra credit:
+  - Complete distance method in Java as well
+
+## Deliverables by 5pm on Monday 6/25:
+    - #2 screenshot of organized repository and screenshot of commands used to organize files
+    - #3 completed binary tree deletion method in Java
