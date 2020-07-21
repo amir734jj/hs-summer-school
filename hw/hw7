@@ -1,0 +1,16 @@
+# HW assigned on 7/20
+
+1) Rate the subjects discussed during the class from most liked to most disliked:
+  - React, JavaScript, python, sorting, Heroku, Git, CSS, binary tree, debounce, Rest GET, axios.js, pip, npm
+2) Read about applications of prime numbers
+3) Read about Sieve of Eratosthenes and implement it in python: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+4) Read about Sieve of Sundaram and implement it in python: https://en.wikipedia.org/wiki/Sieve_of_Sundaram
+  - Srinivasa Varadachari, famous indian mathematician: https://www.worldcat.org/title/mathematics-student/oclc/1013448689
+
+Bonus question:
+- what is the meaning of the Sieve?
+
+## Deliverables by 5pm on Monday 7/27:
+    - #1 Python implementation of Sieve of Eratosthenes in python and in pushed in your repository
+    - #2 Python implementation of Sieve of Sundaram in python and in pushed in your repository
+    >> for both validate that your code, run it to find the prime numbers less than 100
