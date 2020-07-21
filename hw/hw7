@@ -11,6 +11,6 @@ Bonus question:
 - what is the meaning of the Sieve?
 
 ## Deliverables by 5pm on Monday 7/27:
-    - #1 Python implementation of Sieve of Eratosthenes in python and in pushed in your repository
-    - #2 Python implementation of Sieve of Sundaram in python and in pushed in your repository
+    - #1 Python implementation of Sieve of Eratosthenes in python and pushed to your "hs-summer-cs-school" repository
+    - #2 Python implementation of Sieve of Sundaram in python and pushed to your "hs-summer-cs-school" repository
     >> for both validate that your code, run it to find the prime numbers less than 100
