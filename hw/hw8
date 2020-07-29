@@ -1,0 +1,22 @@
+# HW assigned on 7/27
+
+1) implement K-means and Karatsuba in python
+2) given that
+  - CPUs are optimized for integer calculation
+  - GPUs are optimized for floating point calculations
+ > which algorithm is suitable for CPU or GPU
+3) think which part of the algorithm can be parallelized
+ > by parallelizing we mean which part of can be done independently 
+4) write a promise in JavaScript that after 5 seconds prints a "hello world"
+
+Bonus question:
+- watch this video and write a paragraph summary: https://www.youtube.com/watch?v=DHvZLI7Db8E
+  > what does Promise.reoslve(...) mean
+  > what does Promise.all([...]) mean 
+
+## Deliverables by 5pm on Monday 7/30:
+    - #1 python implementation of K-means and Karatsuba
+    - #2 simple promise in javascript
+    * Bonus question if you choose to do it
+    
+Create a file called "hw7.txt" and upload it to your GitHub repository
