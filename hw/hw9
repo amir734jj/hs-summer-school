@@ -1,0 +1,20 @@
+# HW assigned on 7/31
+
+For the next week we are shifting out focus to databases (relational databases):
+
+Prerequisite:
+  > required: watch this 10 minutes video: https://www.youtube.com/watch?v=bEtnYWuo2Bw
+  > optional: watch this 4 hours long video: https://www.youtube.com/watch?v=HXV3zeQKqGY&t=4702s
+
+The homework is to complete the SQL tutorials on w3 school and attach a take an screenshot for each step: https://www.w3schools.com/sql/sql_intro.asp
+
+Bonus question:
+- write a SQL commands to:
+  - get all animals (animalId, animalName, animalAge) from Animals table where animalId = 10
+  - update animalName and set it to "Lion" for animal in Animals table where animalId = 20
+  - delete animal from Animals table where animalId = 30
+
+## Deliverables by 5pm on Monday 8/3:
+    - Screenshot for each step of tutorials
+    
+Create a file called "hw9.txt" for the bonus question
