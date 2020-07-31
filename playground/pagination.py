@@ -1,7 +1,29 @@
+import math
+
 def in_range(lower, upper, n):
     return n >= lower and n <= upper
 
+def items_in_range(x, y):
+    result = []
+    while x <= y:
+        result.append(x)
+        x = x + 1
+    return result
+
 def get_available_pages(page_number, pages, window_size):
+    # when we are too left
+    if page_number <= window_size / 2:
+        return items_in_range(1, window_size)
+    
+    # wehen we are too right
+    if page_number >= pages - window_size / 2:
+        return items_in_range(pages - window_size + 1, pages)
+    
+    # when its perfect place
+    return items_in_range(page_number + 1 - math.ceil(window_size / 2), page_number + math.floor(window_size / 2))
+   
+
+def get_available_pages2(page_number, pages, window_size):
 
     result = [None] * window_size
     
@@ -15,7 +37,6 @@ def get_available_pages(page_number, pages, window_size):
     while size < window_size:
         lower_index_candidate = page_number - i - 1
         upper_index_candidate = page_number + i - 1
-    
     
         if in_range(0, window_size - 1, lower_index_candidate) and result[lower_index_candidate] is None:
             result[lower_index_candidate] = page_number - i
@@ -31,11 +52,11 @@ def get_available_pages(page_number, pages, window_size):
     return result
 
 
-def assert_thing(expected, received):
+def assert_thing(received, expected):
     if expected != received:
-        print(f"expected {expected} but received {received}")
+        print(f"expected {expected} but received {received}\n")
     else:
-        print(f"Good: {expected}")
+        print(f"Good: {expected}\n")
 
 
 # How should the algorithm behave:
