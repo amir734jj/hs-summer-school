@@ -1,0 +1,27 @@
+# HW assigned on 8/4
+
+- For each of the following SQL relationships describe the real-world use case or example:
+  > one-to-one relationship
+  > one-to-many relationship
+  > many-to-many relationship
+ 
+- Research 1) what is ORM 2) what is a benefit of using ORM as opposed to using raw SQL and write about each of the following:
+  > Entity Framework
+  > Hibernate
+  > Sequelize.js
+  
+- What is a different between and write a real world example:
+  > Inner join
+  > Outer join
+  > Left/Right joins
+
+Remember we wrote a join in the last class to query placeFk to get associated Place.name for each Animal such that
+  Animals.placeFk = Places.Id
+
+Bonus question:
+- compare and contrast mySQL vs. postgres
+
+## Deliverables by 5pm on Monday 8/7:
+  - Complete write up for each of the following questions
+    
+Create a file called "hw10.txt" for the bonus question
