@@ -85,7 +85,7 @@ taha                            01110100 01100001 01101000 01100001 XOR
     
     00101010101010101001010100101010101111 X 100
     
-    
+Conventional way:
     Amir: File, Key
     Srini: Ecryoted file, key
     Srini will decrypted the file
@@ -95,6 +95,7 @@ taha                            01110100 01100001 01101000 01100001 XOR
     Amir will decrypt the file and done
     
     
+Homomorphic encryption (quantom computer way):
     Amir: File, key
     Srini: Encrypted file
     Srini will multiply encrypted file by 100 and send it back to Amir
